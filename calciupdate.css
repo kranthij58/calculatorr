@@ -1,0 +1,67 @@
+body{
+  font-style: arial;
+  background-color: black;
+  
+}
+
+.row{
+    
+  justify-content: space-between;
+  margin-bottom: 10px;
+  margin-right: 15px;
+  
+  
+ }
+
+ .output-js{
+  font-size: 40px;
+  color: white;
+  width:100%;
+  overflow-x: auto;
+  white-space: nowrap;
+ }
+ .numbers{
+  font-size: medium;
+  height: 70px;
+  width: 70px;
+  border:none;
+  background-color: #333333;
+  border-radius: 50%;
+  margin-right: 15px;
+  color: white;
+  font-size: 30px;
+ }
+ .operations{
+  
+  height:70px;
+  width:70px;
+  
+  margin-right: 15px;
+  border:none;
+  border-radius: 50%;
+  background: #FEA00A; 
+  color:white;
+  font-size: 30px;
+ }
+ .calci{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+ }
+ .clear{
+  font-size: 23px;
+ }
+ @media(min-width:0px) and (max-width:500px){
+  body{
+    
+  }
+  .numbers,.operations{
+    height: 68px;
+    width:68px;
+    font-size: 28px;
+  }
+  .clear{
+    font-size:28px;
+  }
+
+ }

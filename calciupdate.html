@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calciupdate.css" />
+
+    <script src="calciupdate.js"></script>
+  </head>
+  <body>
+    <div class="calci">
+      <p class="output-js"></p>
+      <div class="row">
+        <button
+          class="numbers"
+          onclick="
+     Calculator+='1';
+     
+      console.log(`${Calculator}`);
+      outputDisplay(Calculator);
+      set(Calculator);
+      
+      "
+        >
+          1
+        </button>
+        <button
+          class="numbers"
+          onclick="
+    Calculator+='2';
+    outputDisplay(Calculator);
+     console.log(`${Calculator}`);
+     set(Calculator);"
+        >
+          2
+        </button>
+        <button
+          class="numbers"
+          onclick="
+    Calculator+='3';
+    outputDisplay(Calculator);
+     console.log(`${Calculator}`);
+     set(Calculator);
+     "
+        >
+          3
+        </button>
+        <button
+          class="operations"
+          onclick="
+    Calculator+=' + ';
+    outputDisplay(Calculator);
+     console.log(`${Calculator}`);
+     set(Calculator);
+     "
+        >
+          +
+        </button>
+      </div>
+      <div class="row">
+        <button
+          class="numbers"
+          onclick="
+     Calculator+='4';
+     outputDisplay(Calculator);
+      console.log(`${Calculator}`);
+      set(Calculator);
+      
+      "
+        >
+          4
+        </button>
+        <button
+          class="numbers"
+          onclick="
+    Calculator+='5';
+    outputDisplay(Calculator);
+     console.log(`${Calculator}`);
+     set(Calculator);"
+        >
+          5
+        </button>
+        <button
+          class="numbers"
+          onclick="
+    Calculator+='6';
+    outputDisplay(Calculator);
+     console.log(`${Calculator}`);
+     set(Calculator);
+     "
+        >
+          6
+        </button>
+        <button
+          class="operations"
+          onclick="
+    Calculator+=' - ';
+    outputDisplay(Calculator);
+     console.log(`${Calculator}`);
+     set(Calculator);
+     "
+        >
+          -
+        </button>
+      </div>
+      <div class="row">
+        <button
+          class="numbers"
+          onclick="
+     Calculator+='7';
+     outputDisplay(Calculator);
+      console.log(`${Calculator}`);
+      set(Calculator);
+      
+      "
+        >
+          7
+        </button>
+        <button
+          class="numbers"
+          onclick="
+    Calculator+='8';
+    outputDisplay(Calculator);
+     console.log(`${Calculator}`);
+     set(Calculator);"
+        >
+          8
+        </button>
+        <button
+          class="numbers"
+          onclick="
+    Calculator+='9';
+    outputDisplay(Calculator);
+     console.log(`${Calculator}`);
+     set(Calculator);
+     "
+        >
+          9
+        </button>
+        <button
+          class="operations"
+          onclick="
+    Calculator+=' * ';
+    outputDisplay(Calculator);
+     console.log(`${Calculator}`);
+     set(Calculator);
+     "
+        >
+          *
+        </button>
+      </div>
+      <div class="row">
+        <button
+          class="numbers"
+          onclick="
+     Calculator+='0';
+     outputDisplay(Calculator);
+      console.log(`${Calculator}`);
+      set(Calculator);
+      
+      "
+        >
+          0
+        </button>
+        <button
+          class="numbers"
+          onclick="
+    Calculator+='.';
+    outputDisplay(Calculator);
+     console.log(`${Calculator}`);
+     set(Calculator);"
+        >
+          .
+        </button>
+        <button
+          class="numbers"
+          class="numbers"
+          onclick="
+    Calculator=eval(Calculator);
+    outputDisplay(Calculator);
+     console.log(`${Calculator}`);
+     set(Calculator);
+     "
+        >
+          =
+        </button>
+        <button
+          class="operations"
+          onclick="
+    Calculator+=' / ';
+    outputDisplay(Calculator);
+     console.log(`${Calculator}`);
+     set(Calculator);
+     "
+        >
+          /
+        </button>
+      </div>
+
+      <div class="clearrow">
+        <button
+          class="numbers clear"
+          onclick="
+   
+Calculator='';
+set(Calculator);
+outputDisplay(Calculator);
+      
+
+   "
+        >
+          AC
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
