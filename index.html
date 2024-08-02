@@ -177,7 +177,11 @@
           class="numbers"
           class="numbers"
           onclick="
-    Calculator=eval(Calculator);
+          try{
+            Calculator=eval(Calculator);
+          }catch(error){
+            Calculator='Error';
+          }
     outputDisplay(Calculator);
      console.log(`${Calculator}`);
      set(Calculator);
