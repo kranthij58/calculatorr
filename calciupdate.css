@@ -52,8 +52,8 @@ body{
   font-size: 23px;
  }
  @media(min-width:0px) and (max-width:500px){
-  body{
-    
+  .row{
+    margin-bottom:27px;
   }
   .numbers,.operations{
     height: 68px;
